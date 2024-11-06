@@ -218,8 +218,10 @@ git remote add origin https://github.com/AliceThynne/PenguinProject.git #paste i
 # one is quarto, one is git, another is git, another is phylogeny / data
 # assignments will not be released at same time :(
 # assessed on code (clearness, layout, whether it is clear from someone looking at it from the outside)
-
 #github troubleshooting
 #put this in the terminal
 git config --global user.email "alice.thynne"
 git config --global user.name "AliceThynne"
+git remote add origin https://github.com/AliceThynne/PenguinProject.git 
+/usr/bin/git push origin HEAD:refs/heads/main
+git push --set-upstream origin main
