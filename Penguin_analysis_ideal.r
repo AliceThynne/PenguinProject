@@ -220,8 +220,28 @@ git remote add origin https://github.com/AliceThynne/PenguinProject.git #paste i
 # assessed on code (clearness, layout, whether it is clear from someone looking at it from the outside)
 #github troubleshooting
 #put this in the terminal
-git config --global user.email "alice.thynne"
-git config --global user.name "AliceThynne"
-git remote add origin https://github.com/AliceThynne/PenguinProject.git 
-/usr/bin/git push origin HEAD:refs/heads/main
+#git config --global user.email "alice.thynne"
+#git config --global user.name "AliceThynne"
+#git remote add origin https://github.com/AliceThynne/PenguinProject.git
+#git remote add origin https://github.com/AliceThynne/PenguinProject.git 
+#/usr/bin/git push origin HEAD:refs/heads/main
+#git push --set-upstream origin main
+#Alices-MacBook-Pro-4:PenguinProject alicethynne$ git remote remove origin
+#Alices-MacBook-Pro-4:PenguinProject alicethynne$ git remote add origin git@github.com:AliceThynne/PenguinProject.git
+#Alices-MacBook-Pro-4:PenguinProject alicethynne$ git branch
+#branch1
+#* main
+#Alices-MacBook-Pro-4:PenguinProject alicethynne$ git push
+#fatal: The current branch main has no upstream branch.
+#To push the current branch and set the remote as upstream, use
+
 git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+Alices-MacBook-Pro-4:PenguinProject alicethynne$ git push --set-upstream origin main
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
